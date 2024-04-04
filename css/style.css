@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     background-color: aliceblue;
     display: flex;
     justify-content: center;
@@ -25,6 +25,16 @@ body {
     border: none;
     border-radius: 5px;
     padding: 5px;
+    font-family: Calculator;
+    color: rgba(0, 237, 0, 1);
+    text-shadow:
+        0 0 2px rgba(0, 237, 0, 0.5),
+        0 0 4px rgba(0, 237, 0, 0.5),
+        0 0 6px rgba(0, 237, 0, 0.5),
+        0 0 8px rgba(0, 237, 0, 0.5),
+        0 0 10px rgba(0, 237, 0, 0.5);
+    background-image: linear-gradient(to bottom, rgba(0, 237, 0, 1) -12%, #000 20%);
+    letter-spacing: 2px;
 }
 
 #buttons {
@@ -55,4 +65,9 @@ button {
 .number {
     background-color: 666;
     color: #000000;
+}
+
+#equal {
+    border: none;
+    color: green;
 }
