@@ -38,5 +38,22 @@ button {
     border-radius: 5px;
     padding-block-end: 10px;
     font-size: 18px;
+    padding: 10px;
     cursor: pointer;
+}
+
+.number {
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+}
+
+.clear {
+    background-color: red;
+    color: #fff;
+}
+
+.number {
+    background-color: 666;
+    color: #000000;
+    grid-column: span 4;
 }
